@@ -1,0 +1,24 @@
+
+Header {
+ color: orange;
+}
+h1 {
+  margin: auto;
+  text-align: center;
+  font-size: 300%;
+  color: #fbd8e8;
+  border: solid 2px white;
+  background-color: #5daecc;
+  opacity: 0.85;
+  width: 40%;
+
+}
+h2 {
+  margin: auto;
+  text-align: center;
+  font-size: 180%;
+  color: #8edddd;
+  background-color: #5daecc;
+  opacity: 0.85;
+  width: 40%;
+}
