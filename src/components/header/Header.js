@@ -4,10 +4,12 @@ import styles from './header.css';
 const Header = () => {
 
   return (
-    <Header>
+    
+    <header>
       <h1>Emily Raquel Ford</h1>
       <h2>Full Stack Software Developer</h2>
-    </Header>
+    </header>
+    
   );
 };
 

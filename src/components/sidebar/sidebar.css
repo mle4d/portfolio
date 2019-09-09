@@ -1,6 +1,44 @@
-section {
-  margin-top: -10%;
+.Sidebar {
+  margin-top: -12%;
+  margin-right: auto;
   width: 25%;
-  height: 100vh;
-  background-color: #fbd8e8;
+  height: 97vh;
+  border-radius: 12px;
+  border: solid 3px #8edddd;
+  background-color: #FBD8E8;
+  opacity: .95;
+}
+img {
+  width: 90%;
+  height: auto;
+  margin-left: 4%;
+  border-radius: 12px;
+  padding: 5px;
+}
+h3 {
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: solid 2px #fbd8e8;
+  text-align: center;
+  font-size: auto;
+  color: #8edddd;
+  width: 45%;
+  height: 4%;
+  margin: auto;
+  padding: 1%;
+}
+p {
+  background-color: #ffffff;
+  border-radius: 12px;
+  text-align: center;
+  font-size: auto;
+  color: #8edddd;
+}
+ul {
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: solid 2px #fbd8e8;
+  text-align: auto;
+  font-size: auto;
+  color: #8edddd;
 }

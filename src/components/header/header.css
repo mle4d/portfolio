@@ -1,24 +1,36 @@
+header {
+  width: 70%;
+  height: 16vh;
+  margin-left: auto;
+  padding: 1%;
+  border-radius: 12px;
+  border: solid 3px #8edddd;
+  background-color: #FBD8E8;
+  opacity: .95;
+} 
 
-Header {
- color: orange;
-}
 h1 {
+  width: 50%;
+  height: 12vh;
+  margin-left: auto;
   margin: auto;
+  border-radius: 12px;
+  border: solid 3px #5daecc;
   text-align: center;
-  font-size: 300%;
+  font-size: auto;
   color: #fbd8e8;
-  border: solid 2px white;
-  background-color: #5daecc;
-  opacity: 0.85;
-  width: 40%;
-
+  background-color: #ffffff;
+  margin-top: 1%;
 }
 h2 {
+  width: 50%;
+  height: 5vh;
+  margin-left: auto;
   margin: auto;
+  border-radius: 12px;
   text-align: center;
-  font-size: 180%;
+  font-size: auto;
   color: #8edddd;
-  background-color: #5daecc;
-  opacity: 0.85;
-  width: 40%;
+  opacity: 0.90;
+  margin-top: -5%;
 }
