@@ -11,9 +11,10 @@ const Project = ({ name, image, description, link, github }) => {
     <div className={styles.Project}>
       <h3 className={styles.name}>{name}
         <img className={styles.ProjectImage}src={image} alt=""/>
-        <a className={styles.projectLinks} href={link}>Site</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a className={styles.projectLinks} href={github}>Repo</a>
-        <p className={styles.description}>{description}</p>
+        <p className={styles.description}><a className={styles.projectLinks} href={link}>Site</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a className={styles.projectLinks} href={github}>Repo</a><section>{description}</section></p>
+          
+        
       </h3>
     </div>
 

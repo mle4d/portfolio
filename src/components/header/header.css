@@ -10,8 +10,8 @@ header {
   margin-top: -.5%;
 } 
 h1 {
-  width: 50%;
-  height: 12vh;
+  width: 50vw;
+  height: 8vh;
   margin-left: auto;
   margin: auto;
   border-radius: 12px;
@@ -20,17 +20,6 @@ h1 {
   font-size: auto;
   color: #fbd8e8;
   background-color: #ffffff;
-  margin-top: -1%;
+  /* margin-top: -1%; */
 }
-h2 {
-  width: 50%;
-  height: 5vh;
-  margin-left: auto;
-  margin: auto;
-  border-radius: 12px;
-  text-align: center;
-  font-size: auto;
-  color: #8edddd;
-  opacity: 0.90;
-  margin-top: -5%;
-}
+
