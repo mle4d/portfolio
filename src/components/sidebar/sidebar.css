@@ -1,5 +1,5 @@
 .Sidebar {
-  margin-top: -12%;
+  margin-top: -8.5%;
   margin-right: auto;
   width: 25%;
   height: 97vh;
@@ -27,18 +27,23 @@ h3 {
   margin: auto;
   padding: 1%;
 }
-p {
+.about {
+  margin: auto;
   background-color: #ffffff;
   border-radius: 12px;
   text-align: center;
   font-size: auto;
   color: #8edddd;
+  width: 45%;
 }
-ul {
+.links {
+  margin: auto;
   background-color: #ffffff;
   border-radius: 12px;
-  border: solid 2px #fbd8e8;
-  text-align: auto;
-  font-size: auto;
-  color: #8edddd;
+  width: 35%;
+  img {
+    margin: auto;
+    width: 35%;
+    height: auto;
+  }
 }

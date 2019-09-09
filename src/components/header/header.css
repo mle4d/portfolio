@@ -1,14 +1,14 @@
 header {
   width: 70%;
-  height: 16vh;
+  height: 16%;
   margin-left: auto;
   padding: 1%;
   border-radius: 12px;
   border: solid 3px #8edddd;
   background-color: #FBD8E8;
   opacity: .95;
+  margin-top: -.5%;
 } 
-
 h1 {
   width: 50%;
   height: 12vh;
@@ -20,7 +20,7 @@ h1 {
   font-size: auto;
   color: #fbd8e8;
   background-color: #ffffff;
-  margin-top: 1%;
+  margin-top: -1%;
 }
 h2 {
   width: 50%;
