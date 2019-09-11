@@ -1,6 +1,6 @@
 body {
-  background: url('../assets/background.png') no-repeat center center fixed;
-  background-color: #FBD8E8;
+  background: url('../assets/portfolioBG.png') no-repeat center center fixed;
+  background-size: cover;
   width: auto;
   height: auto;
 }

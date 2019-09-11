@@ -42,13 +42,14 @@
   }
 
 .Projects {
-  margin-left: auto;
-  margin-top: -80vh;
-  width: 70vw;
-  height: 60vh; 
+  margin: auto;
+  margin-top: 9vh;
+  margin-left: 25vw;
+  width: 48vw;
+  height: 52vh; 
   border-radius: 12px;
   border: solid 3px #8edddd;
-  background-color: #272727;
+  background-color: #ffffff;
   opacity: .95;
   overflow-x: scroll;
 }
