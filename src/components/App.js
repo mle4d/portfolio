@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Projects from './projects/Projects';
+import FullWidthTabs from './Tabs';
 
 import styles from './app.css';
 
@@ -13,7 +13,7 @@ export default function App() {
   return (
     <body>
       
-      <Projects />
+      <FullWidthTabs />
     </body>
   );
 }

@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata|Source+Code+Pro|Special+Elite&display=swap');
 .Sidebar {
-  margin-top: -8.5%;
-  margin-right: auto;
+  
+  margin: auto;
   width: 25%;
   height: 97vh;
   border-radius: 12px;
-  border: solid 3px #8edddd;
-  background-color: #272727;
+ 
+
   opacity: .95;
 }
 img {
