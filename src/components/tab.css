@@ -1,0 +1,49 @@
+.tabbar {
+  color: pink;
+  margin: auto;
+}
+body > div > header > div > div > div {
+  color: #8edddd;;
+}
+body > div > header > div > div {
+  background-color: pink;
+  opacity:.4;
+}
+body > div > header > div > div > div {
+  color: white;
+}
+
+body > div > header {
+  color:#ffffff;
+  background-color: pink;
+  margin: auto;
+  width: 1vw;
+  height: 2vh;
+  margin-top: 4%;
+}
+body > div > header > div {
+  width: 51vw;
+  height: 2vh;
+  margin: auto;
+  background-color:pink;
+  opacity: .80;
+}
+
+#root > body > div > header {
+opacity: .8;
+width: 3px;
+height: 1px;
+}
+header.MuiPaper-root.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorPrimary.mui-fixed {
+  opacity: .8;
+  width: 3px;
+  height: 1px;
+}
+/* body > div > div.MuiTabs-root > div > div {
+  color: pink;
+  background-color: pink;
+} */
+/* body > div > div .MuiTabs-root {
+  color: pink;
+  background-color: pink;
+} */

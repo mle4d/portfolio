@@ -1,7 +1,5 @@
 import React from 'react';
-
-import FullWidthTabs from './Tabs';
-
+import TabBar from './Tabs';
 import styles from './app.css';
 
 export default function App() {
@@ -12,8 +10,7 @@ export default function App() {
 
   return (
     <body>
-      
-      <FullWidthTabs />
+      <TabBar />
     </body>
   );
 }

@@ -7,13 +7,13 @@ import Tab from '@material-ui/core/Tab';
 import Box from '@material-ui/core/Box';
 import Projects from '../components/projects/Projects';
 import Sidebar from '../components/sidebar/Sidebar';
+import styles from './tab.css';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
   return (
     <Box p={4}>{children}</Box>
-    
   );
 }
 
@@ -24,7 +24,7 @@ TabPanel.propTypes = {
 };
 
 
-export default function FullWidthTabs() {
+export default function TabBar() {
   const [value, setValue] = React.useState(0);
 
   function handleChange(event, newValue) {
@@ -36,15 +36,15 @@ export default function FullWidthTabs() {
   }
 
   return (
-    <div>
-      <AppBar>
-        <Tabs value={value} onChange={handleChange}>
-          <Tab label="About Me" />
-          <Tab label="Collab Projects" />
-          <Tab label="Personal Projects" />
-          <Tab label="Contact" />
-        </Tabs>
-      </AppBar>
+    <div className={styles.tabbar}>
+      
+      <Tabs value={value} onChange={handleChange}>
+        <Tab label="About Me" />
+        <Tab label="Collab Projects" />
+        <Tab label="Personal Projects" />
+        <Tab label="Contact" />
+      </Tabs>
+      
       <SwipeableViews index={value} onChangeIndex={handleChangeIndex}>
         <TabPanel value={value} index={0}>
           {Sidebar}
