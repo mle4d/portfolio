@@ -4,10 +4,6 @@ import styles from './app.css';
 
 export default function App() {
 
-  
-  // getProjects();
-
-
   return (
     <body>
       <TabBar />

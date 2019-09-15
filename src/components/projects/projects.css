@@ -5,8 +5,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   padding: 3vw;
-  width: 80%;
-  height: 130%;
+  width: 30vw;
+  height: 20vh;
 }
 .title {
   width: 30%;
@@ -22,7 +22,7 @@
 }
 .name {
   width: 110vw;
-  height: 48vh;
+  height: 30vh;
   margin-left: 5vw;
   border-radius: 12px;
   border: solid 2px #5daecc;
@@ -30,8 +30,7 @@
   font-size: auto;
   color: #8EDDDD;
   background-color: #ffffff;
-  margin-top: -15%;
-  
+  margin-top: -10%;
 }
   .ProjectImage {
    width: 15vw;

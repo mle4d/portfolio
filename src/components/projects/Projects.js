@@ -11,7 +11,6 @@ export default function Projects() {
 
   return (
     <section className={styles.Projects}>
-      <h2 className={styles.title}>Projects</h2>
       <div className={styles.container}>
         <Project name="Soto" image={Soto} description="Collab Project.Vanilla JS Front End. Sorting game inspired by Marie Kondo and the minimialist lifestyle." link="https://spark-joy.github.io/" github="https://github.com/spark-joy/spark-joy.github.io" />
         <Project name="Moddo" image={Moddo} description="Collab Project. Vanilla JS Front End build utilizing two APIs and using Firebase. An app designed for daily morning use. Users get a randomly generated paired photo and quote from two different APIs for a daily motto, can also make lists of all sorts and set alerts on list-items." link="https://moddo.netlify.com/" github="https://github.com/rubber-ducky-squad/Adviser" />
