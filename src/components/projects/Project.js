@@ -8,11 +8,11 @@ const Project = ({ name, image, description, link, github }) => {
 
   return (
     <div className={styles.project}>
-      <div classNames={styles.projectInner}>
-        <div classNames={styles.projectFront}>
-          <img classNames={styles.image} src={image} />
+      <div className={styles.projectInner}>
+        <div className={styles.projectFront}>
+          <img className={styles.image} src={image} />
         </div>
-        <div classNames={styles.projectBack}>
+        <div className={styles.projectBack}>
           <h1>{name}</h1>
           <p>{github} & {link}</p>
           <p>{description}</p>

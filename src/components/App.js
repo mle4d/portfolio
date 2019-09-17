@@ -5,9 +5,9 @@ import styles from './app.css';
 export default function App() {
 
   return (
-    <body>
+    <>
       <TabBar />
-    </body>
+    </>
   );
 }
   

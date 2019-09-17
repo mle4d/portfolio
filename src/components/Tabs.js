@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import SwipeableViews from 'react-swipeable-views';
 import Tabs from '@material-ui/core/Tabs';
@@ -16,13 +16,10 @@ function TabPanel(props) {
   );
 }
 
-TabPanel.propTypes = {
-  children: PropTypes.node
-};
 
 
 export default function TabBar() {
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = useState(0);
 
 
   function handleChange(event, newValue) {
@@ -36,7 +33,7 @@ export default function TabBar() {
   return (
     <div className={styles.tabbar}>
       
-      <Tabs className={styles.tabs} indicatorColor="" value={value} onChange={handleChange} active={value}>
+      <Tabs className={styles.tabs} indicatorColor="secondary" value={value} onChange={handleChange} active={value}>
         <Tab className={styles.name} label="About Me" />
         <Tab className={styles.name} label="Collab Projects" />
         <Tab className={styles.name} label="Personal Projects" />
