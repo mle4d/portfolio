@@ -2,7 +2,7 @@ import React from 'react';
 import Project from './Project';
 import Soto from '../../assets/Soto.png';
 import Moddo from '../../assets/Moddo.png';
-import ACB from '../../assets/ACB.png';
+import ACB from '../../assets/acb.png';
 import meowmachine from '../../assets/meowmachine.png';
 import styles from './projects.css';
 
@@ -17,6 +17,7 @@ export default function Projects() {
         <Project name="ACL Twitter Bot" image={ACB} description="Collab Project.  NodeJS, Express and Mongo DB Back End build. A twitter-bot built for the use of a tech community. The bot can retweet questions, reply when asked for a joke, retweet memory submits AND has a neotrellis/raspberry pi emoji keypad hooked up for emoji stories to be tweeted from." link="https://twitter.com/AlchemyPDXBot" github="https://github.com/rainbow-robots" />
         <Project name="Meow Machine" image={meowmachine} description="Solo Project. Front End React build. A fun and cute build made when I was starting to learn the magic of React!" link="https://meowmachine.netlify.com/" github="https://github.com/mle4d/MeowMachine" />
         <Project name="ACL Twitter Bot" image={ACB} description="Collab Project.  NodeJS, Express and Mongo DB Back End build. A twitter-bot built for the use of a tech community. The bot can retweet questions, reply when asked for a joke, retweet memory submits AND has a neotrellis/raspberry pi emoji keypad hooked up for emoji stories to be tweeted from." link="https://twitter.com/AlchemyPDXBot" github="https://github.com/rainbow-robots" />
+      
       </div>
     </section>
   );
