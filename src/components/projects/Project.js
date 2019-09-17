@@ -7,16 +7,6 @@ import styles from './projects.css';
 const Project = ({ name, image, description, link, github }) => {
 
   return (
-
-  //  <div className={styles.Project}>
-  //    <h3 className={styles.name}>{name}
-  //      <img className={styles.ProjectImage}src={image} alt=""/>
-  //      <p className={styles.description}><a className={styles.projectLinks} href={link}>Site</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  //        <a className={styles.projectLinks} href={github}>Repo</a></p>
-  //      <section>{description}</section>
-      
-  //      </h3>
-  //   </div>
     <div className={styles.project}>
       <div classNames={styles.projectInner}>
         <div classNames={styles.projectFront}>
