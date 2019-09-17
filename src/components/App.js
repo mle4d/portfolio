@@ -6,7 +6,7 @@ export default function App() {
 
   return (
     <>
-      <TabBar />
+      <h1>hi</h1>
     </>
   );
 }
