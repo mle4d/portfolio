@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from './Project';
-import Soto from '../../assets/Soto.png';
-import Moddo from '../../assets/Moddo.png';
+import Soto from '../../assets/soto.png';
+import Moddo from '../../assets/moddo.png';
 import ACB from '../../assets/acb.png';
 import styles from './projects.css';
 
