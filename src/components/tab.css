@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata|Source+Code+Pro|Special+Elite&display=swap');
 .tabbar{
-  width:52vw;
-  height: 45vh;
+  width: 50vw;
+  height: 40vh;
   margin: auto;
   margin-top: 10vh;
   justify-content: space-between;

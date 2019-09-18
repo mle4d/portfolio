@@ -8,14 +8,14 @@ const Project = ({ name, image, description, link, github }) => {
 
   return (
     <div className={styles.project}>
-      <div className={styles.projectInner}>
-        <div className={styles.projectFront}>
-          <img className={styles.image} src={image} />
-        </div>
-        <div className={styles.projectBack}>
-          <h1>{name}</h1>
-          <p>{github} & {link}</p>
-          <p>{description}</p>
+      <div className={styles.container}>
+        <div className={styles.imgContainer}><img className={styles.image} src={image} />
+          <div className={styles.info}>
+            <div className={styles.infoColumn}><h1>{name}</h1>
+              <p>{github} & {link}</p>
+              <p>{description}</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
