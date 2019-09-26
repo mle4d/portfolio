@@ -7,46 +7,40 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-  text-align: center;
 }
 .container {
   flex-wrap: wrap;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-  text-align: center;
 }
 .imgContainer {
   flex-wrap: wrap;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
 }
 .image {
-  width: 20vw;
-  height: auto;
+  width: 10vw;
+  height: 8vh;
   flex-wrap: nowrap;
   display: flex;
   align-items: center;
-  justify-content: space-around;
   text-align: center;
+  overflow: hidden;
 }
 .info {
   flex-wrap: nowrap;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  text-align: center;
+  width: 10vw;
+  overflow: hidden;
 }
 .infoColumn {
+  width: 10vw;
   flex-wrap: nowrap;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
   text-align: center;
+  overflow: hidden;
 }

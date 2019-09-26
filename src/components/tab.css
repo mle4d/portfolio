@@ -1,18 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata|Source+Code+Pro|Special+Elite&display=swap');
 .tabbar{
-  width: 50vw;
-  height: 40vh;
+  width: 48vw;
+  height: 4vh;
   margin: auto;
-  margin-top: 10vh;
+  margin-top: 9vh;
+  margin-left: 26vw;
   justify-content: space-between;
   .tabs {
     background-color: #ffffff;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     height: 1vh;
-    .tabs:active {
-      opacity: .2;
-    }
     .name {
       border: solid 2px #aaaaaa;
       border-top-left-radius: 12px;
@@ -20,17 +18,8 @@
       border-bottom: white;
       background-color: white;
       font-family: 'Special Elite', cursive;
-      .name:active {
-        background-color: white;
-        color: orange;
-      }
-      .view {
-        .panel{
-          background-color: orange;
-        }
-      }
     }
-  }
+}
 }
 
 

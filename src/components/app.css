@@ -3,4 +3,5 @@ body {
   background-size: cover;
   width: auto;
   height: auto;
+  overflow: hidden;
 }
