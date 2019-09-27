@@ -30,7 +30,7 @@
   font-family: 'Special Elite', cursive;
   font-size: auto;
   color: #8edddd;
-  width: 27vw;
+  width: 22vw;
   overflow: scroll;
   opacity: .96;
   padding: 6px;
@@ -44,6 +44,7 @@
   align-items: flex-end;
   text-align: center;
   width: 60vw;
+  height: 10vh;
   opacity: .9;
 }
 .links {
@@ -54,9 +55,13 @@
   justify-content: space-around;
   align-content: stretch;
   width: 48vw;
+  height: 8vh;
   img {
-    width: 10%;
-    height: 30%;
-    padding: 14px;
+    width: 3vw;
+    height: auto;
+    padding-top: 1%;
+    padding-right: 5%;
+    /* padding-bottom: 1%; */
+    padding-left: 5%;
   }
 }
