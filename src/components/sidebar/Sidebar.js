@@ -5,7 +5,14 @@ import linkedin from '../../assets/linkedin.png';
 import twitter from '../../assets/twitter.png';
 import Resume from '../../assets/Resume.png';
 import Email from '../../assets/Email.png';
-
+import css from '../../assets/css.png';
+import html from '../../assets/html.png';
+import javascript from '../../assets/javascript.png';
+import mongo from '../../assets/mongo.png';
+import express from '../../assets/express.png';
+import react from '../../assets/react.png';
+import redux from '../../assets/redux.png';
+import node from '../../assets/node.png';
 
 const Sidebar = () => {
 
@@ -17,6 +24,22 @@ const Sidebar = () => {
              my former career translate into my new venture. I'm great with attention to creative detail 
              & viewing things from a real user point of view, but also enjoy the organization 
              & pattern of backend development.</p></div>
+      <div className={styles.stack}>
+        <div className={styles.stack1}>
+          <img src={html}></img>
+          <img src={javascript}></img>
+          <img src={express}></img>
+        </div>
+        <div className={styles.stack2}>
+          <img src={redux}></img>
+          <img src={css}></img>
+        </div>
+        <div className={styles.stack3}>
+          <img src={mongo}></img>
+          <img src={react}></img>
+          <img src={node}></img>
+        </div>
+      </div>
       <div className={styles.connect}>
         <div className={styles.links}>
           <a href="https://www.linkedin.com/in/mle4d/"><img src={linkedin}></img></a>
