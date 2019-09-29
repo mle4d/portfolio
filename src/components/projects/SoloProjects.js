@@ -9,7 +9,7 @@ export default function SoloProjects() {
   return (
     <section className={styles.Projects}>
       <div className={styles.container}>
-        <Project name="Meow Machine" image={meowmachine} link="https://meowmachine.netlify.com/" github="https://github.com/mle4d/MeowMachine" />
+        <Project name="Meow Machine" image={meowmachine} stack="React, HTML, CSS"link="https://meowmachine.netlify.com/" github="https://github.com/mle4d/MeowMachine" />
       </div>
     </section>
   );
