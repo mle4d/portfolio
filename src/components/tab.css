@@ -13,6 +13,7 @@
     height: 1vh;
     .name {
       border: solid 2px #fbd8e8;
+      border-right: solid 1px #fbd8e8;
       border-top-left-radius: 12px;
       border-top-right-radius: 12px;
       border-bottom: white;
