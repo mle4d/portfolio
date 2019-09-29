@@ -27,17 +27,19 @@ const Sidebar = () => {
       <div className={styles.stack}>
         <div className={styles.stack1}>
           <img src={html}></img>
-          <img src={javascript}></img>
-          <img src={express}></img>
+          <img src={react}></img>
         </div>
         <div className={styles.stack2}>
-          <img src={redux}></img>
           <img src={css}></img>
+          <img src={javascript}></img>
         </div>
         <div className={styles.stack3}>
           <img src={mongo}></img>
-          <img src={react}></img>
           <img src={node}></img>
+        </div>
+        <div className={styles.stack4}>
+          <img src={express}></img>
+          <img src={redux}></img>
         </div>
       </div>
       <div className={styles.connect}>
