@@ -25,15 +25,16 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   background-color: #ffffff;
+  padding: 2px;
   border-radius: 12px;
   text-align: center;
   font-family: 'Special Elite', cursive;
   font-size: auto;
-  color: #8edddd;
+  color: #5daecc;
   width: 23vw;
   height: 33vh;
   overflow: scroll;
-  margin-top: 4px;
+  margin-top: 5px;
 }
 .stack {
   flex-wrap: nowrap;
@@ -118,7 +119,7 @@
   img {
     width: 3vw;
     height: auto;
-    padding-top: 1%;
+    padding-top: -1%;
     padding-right: 5%;
     padding-left: 5%;
   }
