@@ -19,11 +19,13 @@ const Sidebar = () => {
   return (
     <div className={styles.Sidebar}>
       <div className={styles.content}>
-        <p className={styles.about}>I am a full stack software engineer with experience
-             in the MERN stack. With a background in art & floral design, it's been exciting seeing 
-             my former career translate into my new venture. I'm great with attention to creative detail 
-             & viewing things from a real user point of view, but also enjoy the organization 
-             & pattern of backend development.</p></div>
+        <p className={styles.about}>I'm a software engineer with experience
+         in the MERN stack and a strong background in art & design. 
+         I'm seeking a position that will provide me opportunities for 
+         personal and professional growth through challenging work and 
+         mentorship. I'm especially interested in roles that leverage my 
+         experience with usability and interface design while offering 
+         experience working farther down the stack.</p></div>
       <div className={styles.stack}>
         <div className={styles.stack1}>
           <img src={html}></img>
