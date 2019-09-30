@@ -34,20 +34,20 @@ export default function TabBar() {
     <div className={styles.tabbar}>
       
       <Tabs className={styles.tabs} indicatorColor="" value={value} onChange={handleChange} active={value}>
-        <Tab className={styles.name} label="About Me" />
         <Tab className={styles.name} label="Collab Projects" />
-        <Tab className={styles.name} label="Personal Projects" />
+        <Tab className={styles.name} label="Solo Projects" />
+        <Tab className={styles.name} label="About Me" />
       </Tabs>
       
       <SwipeableViews className={styles.view} index={value} onChangeIndex={handleChangeIndex}>
         <TabPanel className={styles.panel} value={value} index={0}>
-          {Sidebar}
-        </TabPanel>
-        <TabPanel className={styles.theTabs} value={value} index={1}>
           {Projects}
         </TabPanel>
-        <TabPanel value={value} index={2}>
+        <TabPanel className={styles.theTabs} value={value} index={1}>
           {SoloProjects}
+        </TabPanel>
+        <TabPanel value={value} index={2}>
+          {Sidebar}
         </TabPanel>
       </SwipeableViews>
     </div>
