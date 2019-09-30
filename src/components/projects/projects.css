@@ -76,23 +76,24 @@
 h2 {
   color: #5daecc;
   font-size: 90%;
+  margin-top: 4%;
 }
 .TS {
   color: #8edddd;
   font-size: 70%;
-  margin-top: -6%;
+  margin-top: -3%;
 }
 a:link {
   color: #8edddd;
   opacity: 1;
-  margin-top: -12%;
+  margin-top: 6%;
   font-size: 80%;
 }
 
 a:visited {
   color: #5daecc;
   opacity: 1;
-  margin-top: -12%;
+  margin-top: 6%;
   font-size: 80%;
 }
 @media screen and (max-width: 600px) and (min-width: 300px) {
