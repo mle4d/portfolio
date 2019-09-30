@@ -5,3 +5,12 @@ body {
   height: auto;
   overflow: hidden;
 }
+@media screen and (max-width: 600px) and (min-width: 300px) {
+  body {
+    background: url('../assets/background.png') no-repeat center center fixed;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+  }
+}
