@@ -6,8 +6,8 @@
   flex-direction: row;
   justify-content: space-between;
   position: static;
-  height: 45vh;
-  width: 47.5vw;
+  height: 100%;
+  width: 98%;
   border: solid 2px #fbd8e8;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
@@ -29,10 +29,10 @@
   border-radius: 12px;
   text-align: center;
   font-family: 'Special Elite', cursive;
-  font-size: auto;
+  font-size: 2em;
   color: #5daecc;
   width: 23vw;
-  height: 33vh;
+  height: 30vh;
   overflow: scroll;
   margin-top: 5px;
 }
@@ -115,11 +115,11 @@
   justify-content: space-around;
   align-content: stretch;
   width: 100%;
-  height: 9vh;
+  height: 70%;
   img {
     width: 3vw;
     height: auto;
-    padding-top: -1%;
+    padding-top: -2%;
     padding-right: 5%;
     padding-left: 5%;
   }
@@ -251,6 +251,136 @@
       padding-top: -1%;
       padding-right: 2%;
       padding-left: 2%;
+    }
+    img:hover {
+      transition: .5s ease;
+      opacity: .6;
+    }
+  }
+}
+@media screen and (max-width: 1050px) and (min-width: 601px) {
+  .Sidebar {
+    background: transparent;
+    flex-wrap: nowrap;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: static;
+    height: 100vh;
+    width: 100vw;
+    border: transparent;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    overflow: hidden;
+  }
+  .content {
+    flex-wrap: nowrap;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    height: 110vh;
+    width: 100vw;
+  }
+  .about {
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 2px;
+    border-radius: 12px;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 2em;
+    color: #5daecc;
+    width: 100%;
+    height: 50%;
+    overflow: scroll;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .stack {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top:-200px;
+    margin-left: -10px;
+  }
+  .stack1 {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0%;
+    img {
+      width: 24vw;
+      height: auto;
+    }
+  }
+  .stack2 {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    position: relative;
+    left: 0vh;
+    img {
+      width: 24vw;
+      height: auto;
+    }
+  }
+  .stack3 {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    margin-top: 0%;
+    position: relative;
+    left: 0vh;
+    img {
+      width: 24vw;
+      height: auto;
+    }
+  }
+  .stack4 {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    position: relative;
+    left: 0vh;
+    img {
+      width: 24vw;
+      height: auto;
+    }
+  }
+  .connect {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 40vh;
+  }
+  .links {
+    flex-wrap: nowrap;
+    background-color: #8edddd;
+    border-radius: 12px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    width: 95%;
+    height: 40%;
+    img {
+      width: 10%;
+      height: auto;
+      padding-top: -1%;
+      padding-right: 5%;
+      padding-left: 5%;
     }
     img:hover {
       transition: .5s ease;

@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata|Source+Code+Pro|Special+Elite&display=swap');
+.Projects {
+  position: static;
+  height: 99%;
+  width: 99%;
+  background-color: #8edddd;
+  border-radius: 12px;
+}
 .project {
   flex-wrap: nowrap;
   display: flex;
@@ -6,6 +13,7 @@
   align-items: center;
   justify-content: stretch;
   width: 48%;
+  height: 50%;
   border-radius: 12px;
   border: transparent;
 }
@@ -13,12 +21,11 @@
   flex-wrap: wrap;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-content: center;
   border-radius: 12px;
   padding: 4px;
-  background-color: #8edddd;
-  width: 47.5vw;
+  width: 99%;
 }
 .imgContainer {
   flex-wrap: wrap;
@@ -26,9 +33,11 @@
   align-items: center;
   border-radius: 12px;
   border: solid 3px #fbd8e8;
+  width: 100%;
+  margin-top: 5%;
 }
 .image {
-  width: 22vw;
+  width: 100%;
   height: auto;
   flex-wrap: nowrap;
   display: flex;
@@ -97,13 +106,104 @@ a:visited {
   font-size: 80%;
 }
 @media screen and (max-width: 600px) and (min-width: 300px) {
+  .Projects {
+    position: static;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    background-color: #8edddd;
+    border-radius: 12px;
+  }
   .project {
     flex-wrap: nowrap;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: stretch;
-    width: 95%;
+    width: 80%;
+    border-radius: 12px;
+    border: transparent;
+  }
+  .container {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    border-radius: 12px;
+    padding: 4px;
+    background-color: transparent;
+    width: 100%;
+  }
+  .imgContainer {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    border: solid 3px #fbd8e8;
+  }
+  .image {
+    width: 100%;
+    height: auto;
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  .image:hover{
+    opacity: 0.3;
+  }
+  .info {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    margin-top: -48%;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    padding: 5px 5px;
+    overflow: hidden;
+    transition: .5s ease;
+    opacity: 0;
+    position: relative;
+    z-index: 1;
+  }
+  .info:hover{
+    opacity: .95;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: solid 8px #fbd8e8;
+  }
+  .infoColumn {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 1050px) and (min-width: 601px) {
+  .Projects {
+    position: static;
+    height: 100%;
+    width: 100%;
+    background-color: #8edddd;
+    border-radius: 12px;
+  }
+  .project {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    width: 80%;
     border-radius: 12px;
     border: transparent;
   }

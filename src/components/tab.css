@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata|Source+Code+Pro|Special+Elite&display=swap');
 .tabbar{
-  width: 48vw;
+  width: 49%;
   height: 4vh;
   margin: auto;
   margin-top: 9vh;
@@ -23,6 +23,28 @@
 }
 }
 @media screen and (max-width: 600px) and (min-width: 300px) {
+  .tabbar{
+    width: 95vw;
+    height: 20%;
+    margin: auto;
+    margin-top: 1;
+    margin-left: 0;
+    justify-content: space-around;
+    .tabs {
+      .name {
+        border: solid 2px #fbd8e8;
+        border-right: solid 1px #fbd8e8;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom: white;
+        background-color: white;
+        font-family: 'Special Elite', cursive;
+        font-size: 70%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1050px) and (min-width: 601px) {
   .tabbar{
     width: 95vw;
     height: 20%;
